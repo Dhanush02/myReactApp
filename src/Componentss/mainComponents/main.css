@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+.container-fluid{
+    height:100vh;
+    width:100%;
+    /* overflow: hidden; */
+}
+.container-fluid {
+    height:100vh;
+    width:100%;
+    background-image: url('https://www.denbighshirefreepress.co.uk/resources/images/10502103/');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.sideBar{
+    height:100%;
+    width:270px;
+    /* position: fixed; */
+    background-color: rgba(245, 245, 245, 0.2)
+}
+.sideBar img{
+    cursor: pointer;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    
+}
+.nav li{
+    padding: 10px;
+    height:70px;
+    vertical-align: center;
+    /* background-color: violet; */
+    width:260px;
+}
+.nav li:hover{
+    border-left:2px solid wheat ;
+}
+.nav li a{
+    /* padding: 20px; */
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+i{
+    color:wheat;
+    font-size: 20px;
+    float:left;
+    position: relative;
+    top:5px;
+    padding-left:25px ;
+}
+.navbar{
+    width:100vw;
+    background-color: rgba(245, 245, 245, 0.2);
+}

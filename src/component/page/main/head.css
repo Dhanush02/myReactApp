@@ -1,0 +1,27 @@
+.navbar{
+    background-color: rgba(245, 245, 245, 0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: -7.829px 11.607px 21px 0px rgba(241, 244, 248, 0.2);
+}
+i{
+    color:wheat;
+    font-size: 20px;
+    float:left;
+    position: relative;
+    top:5px;
+    padding-left:25px ;
+}
+.inner-fluid{
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-div{
+    height:auto;
+    width:100%;
+    background-color: rgba(245, 245, 245, 0.2);
+    margin: 5px;
+    box-shadow: -7.829px 11.607px 21px 0px rgba(71, 95, 123, 0.2);
+}

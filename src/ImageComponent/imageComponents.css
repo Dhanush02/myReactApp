@@ -1,0 +1,13 @@
+.user{
+    color:red;
+    display: flex;
+    padding:10px;
+}
+.names{
+    padding-left:28px;
+    padding-right:28px;
+    border:none;
+    height:30px;
+    width:200px;
+    background-color: lavender;
+}

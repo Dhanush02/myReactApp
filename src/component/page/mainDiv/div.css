@@ -1,0 +1,19 @@
+.card{
+    width:360px;
+    padding:10px;
+    background-color: rgba(245, 245, 245, 0.2);
+    box-shadow: -7.829px 11.607px 21px 0px rgba(109, 155, 247, 0.2);
+}
+.card:hover{
+    box-shadow: 7.829px 20.607px 78px 50px rgba(0, 0, 0, 0.2);
+}
+.card img{
+    height:250px;
+    padding-bottom: 10px;
+}
+.teext{
+    color:white;
+}
+.para{
+    color: rgb(145, 205, 255);
+}

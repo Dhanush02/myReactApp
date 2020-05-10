@@ -1,0 +1,100 @@
+.mainDiv{
+    height:100%;
+    width:84%;
+    background-color:#F2F4F4;
+    float:right;
+    position: relative;
+    margin-top:-1065px;
+}
+.search-bell{
+    float:right;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:-35px;
+    right:10px;
+}
+.search-bell li {
+    list-style-type: none;
+}
+.search-bell input{
+    height:30px;
+    width:72px;
+    border-radius: 7%;
+    border: none;
+    background-color:#E0E5E8;
+}
+.search-bell .fa-search { 
+    position: absolute; 
+    float: left;
+    left:40px;
+    padding:8px;
+    font-family: 500;
+    color:grey;
+} 
+.search-bell input { 
+    width: 72px;
+    margin-right:20px;
+
+} 
+.notBell{
+    color:red;
+    background-color: red;
+    font-size: 8px;
+    height:4px;
+    width:5px;
+    position: relative;
+    left:-7px;
+}
+.box {
+    position: relative;
+    border-top: 0;
+    margin-bottom: 30px;
+    width: 270px;
+    height:150px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0px;
+    transition: .5s;
+    box-shadow: -7.829px 11.607px 21px 0px rgba(71, 95, 123, 0.2);
+}
+.content {
+    min-height: 20px;
+    padding: 30px 30px 0px 30px;
+    
+    
+
+}
+.box-body {
+    padding: 1.5rem 1.5rem;
+    flex: 1 1 auto;
+    border-radius: 5px;
+    height:150px;
+}
+.badge-sm {
+    line-height: 1.2;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-size:65%;
+}
+.text-dark{
+    color:black;
+    font-size: 15px;
+}
+.car-text{
+    font-size:30px;
+}
+.box1{
+    height:50%;
+    width:40px;
+}
+
+
+
+
+
+
+
+
+
+
