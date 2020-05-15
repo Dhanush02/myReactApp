@@ -1,0 +1,134 @@
+  .panel.show-menu {
+    transform: translate3d(150px, 0, 0);
+  }
+  .panel .header {
+    height: 60px;
+    width: 100%;
+    
+    background-color: rgba(245, 245, 245, 0.2);
+    font-family: 'josefin sans', serif;
+  }
+  
+    .panel .header .menu-icon {
+        position: absolute;
+        width: 29px;
+        height: 15px;
+        top: 23px;
+        left: 20px;
+        display: none;
+        cursor: pointer;
+    }
+  .panel .header .menu-icon .dash-top, .panel .header .menu-icon .dash-bottom {
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 1px;
+    transition: all .2s ease-in-out;
+  }
+  .panel .header .menu-icon .dash-bottom {
+    width: 29px;
+    top: auto;
+    bottom: 0;
+  }
+  .panel .header .menu-icon .circle {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 4px;
+    top: -2px;
+    right: 0;
+    background: #fff;
+    transition: all .2s ease-in-out;
+  }
+  .slide {
+      transform: translate(-1.6rem);
+      transition: .5s;
+  }
+  .slide-top {
+      transform: translate(.6rem);
+      transition: .5s;
+  }
+  .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .panel .header .title {
+    color: #000;
+    font-size: 1.6rem;
+  }
+  
+  .panel .notifications {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+  .panel .notifications .line {
+    position: absolute;
+    top: 0;
+    left: 27px;
+    bottom: 0;
+    width: 3px;
+    background: #000;
+      animation: appear .5s;
+  }
+  @keyframes appear {
+      0% {
+          transform: translateY(-20rem);
+      }
+      100% {
+          transform: translateY(0rem);
+      }
+  }
+  .panel .notifications .notification {
+      color: black;
+      padding:10px;
+    position: relative;
+    z-index: 2;
+    margin: 20px 20px 25px 43px;
+  }
+  .panel .notifications .notification:nth-child(2) {
+            animation: here-am-i 0.5s ease-out 0.4s;
+            animation-fill-mode: both;
+  }
+  .panel .notifications .notification:nth-child(3) {
+            animation: here-am-i 0.5s ease-out 0.6s;
+            animation-fill-mode: both;
+  }
+  .panel .notifications .notification:nth-child(4) {
+            animation: here-am-i 0.5s ease-out 0.8s;
+            animation-fill-mode: both;
+  }
+  .panel .notifications .notification .circle {
+    box-sizing: border-box;
+    position: absolute;
+    height: 11px;
+    
+    width: 11px;
+    background: rgb(21, 71, 236);
+    box-shadow: 0 0 0 3px #fff;
+    border-radius: 6px;
+    top: 0;
+    left: -20px;
+  }
+  .panel .notifications .notification .time {
+    display: block;
+    /* padding:10px; */
+    font-size: .75rem;
+    line-height: 11px;
+    margin-bottom: 2px;
+  }
+  .panel .notifications .notification p {
+    line-height: 40px;
+    margin: 0;
+      font-size: 1.1rem;
+  }
+  .panel .notifications .notification p b {
+    font-weight: 600;
+  }
+  
+  
+  

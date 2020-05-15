@@ -1,19 +1,53 @@
 .card{
-    width:360px;
+    width:320px;
     padding:10px;
     background-color: rgba(245, 245, 245, 0.2);
-    box-shadow: -7.829px 11.607px 21px 0px rgba(109, 155, 247, 0.2);
-}
-.card:hover{
-    box-shadow: 7.829px 20.607px 78px 50px rgba(0, 0, 0, 0.2);
 }
 .card img{
-    height:250px;
+    height:200px;
+    width:300px;
     padding-bottom: 10px;
 }
+iframe{
+    height:500px;
+    width:800px;
+}
 .teext{
-    color:white;
+    color:black;
 }
 .para{
-    color: rgb(145, 205, 255);
+    color: black;
+}
+@media (max-width:375px){
+    .card {
+        width:200px;
+        
+    }
+    .card iframe{
+        height:200px;
+        padding-bottom: 10px;
+    }
+}
+.bt{
+    position: relative;
+    top:12px;
+    background-color: #FF5A5A !important;
+    color: black !important;
+}
+.bt:focus{
+    outline: none !important;
+    text-decoration: none !important;
+}
+@media(max-width:320px){
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .bt{
+        position: relative;
+        left:80px;
+    }
+    .some-class{
+        width:100% !important;
+    }
 }

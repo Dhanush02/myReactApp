@@ -1,27 +1,54 @@
 .navbar{
-    background-color: rgba(245, 245, 245, 0.2);
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     box-shadow: -7.829px 11.607px 21px 0px rgba(241, 244, 248, 0.2);
 }
 i{
-    color:wheat;
+    color:black;
     font-size: 20px;
     float:left;
     position: relative;
     top:5px;
     padding-left:25px ;
 }
-.inner-fluid{
+.inner-div{
     display: flex;
     flex-direction: row;
+    height:100vh;
+    width:100%;
     
 }
 .main-div{
-    height:auto;
+    height:100%;
+    position: relative;
     width:100%;
+    overflow: scroll;
     background-color: rgba(245, 245, 245, 0.2);
     margin: 5px;
     box-shadow: -7.829px 11.607px 21px 0px rgba(71, 95, 123, 0.2);
 }
+@media(max-width:500px){
+    .top-nav{
+        height:200px;
+    }
+    .fa-th,.fa-grin-wink{
+        position: relative;
+        top:40px;
+        padding: 4px;
+        left:-40px;
+        font-size: 15px;
+    }
+    .fa-sign-in-alt{
+        position: relative;
+        top:40px;
+        padding: 4px;
+        left:20px;
+        font-size: 15px; 
+    }
+}
+/* @media(max-width:500px){
+    .navbar{
+        display: block;
+    }
+} */

@@ -6,11 +6,17 @@
 body{
     height:100%;
     width:100%;
-    background-image:url('https://www.denbighshirefreepress.co.uk/resources/images/10502103/');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
+}
+html{
+    scroll-behavior: smooth;
 }
 i{
     cursor: pointer;
+    color:black;
+}
+i:hover{
+    color: #ff5a5a;
 }
